@@ -1,0 +1,9 @@
+#navbarScroll{
+  flex-grow: 0;
+}
+#navLinks {
+  gap: 10px;
+}
+#navLinks a{
+  text-decoration: none;
+}

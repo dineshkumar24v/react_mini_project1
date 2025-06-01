@@ -1,0 +1,22 @@
+
+#allRecipeCont{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+
+#matchedRecipieDetailsCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+#matchedRecipieDetailsCont #img img{
+  width: 80%;
+  border-radius: 10px;
+}
+#matchedRecipieDetailsCont #img{
+  width: 50%;
+}
