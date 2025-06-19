@@ -13,11 +13,14 @@ const RecipeDetails = ({recipesDataToRecipieDetails}) => {
     console.log(typeof cartItems, 'cartitems')
     cartItemsFromLS.push(cartItemsChoosed)
     localStorage.setItem('cartItems',JSON.stringify(cartItemsFromLS))
+    alert("added to cart successfully!!!!!!")
   }
   const handleFavItems = (favItemsChoosed)=>{   // handling favoruite items function
     let favItemsFromLS = JSON.parse(localStorage.getItem('favItems')) || []
     favItemsFromLS.push(favItemsChoosed)
     localStorage.setItem('favItems', JSON.stringify(favItemsFromLS))
+    alert("added to favourites successfully!!!!!!")
+
   }
   return (   // rendering / displaying data on to the web page...
     <div id='matchedRecipieDetailsCont'>
